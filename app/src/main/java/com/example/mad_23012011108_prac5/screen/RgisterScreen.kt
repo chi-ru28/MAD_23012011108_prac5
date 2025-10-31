@@ -147,7 +147,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Confirm Password",
-                        fontSize = 12.sp,
+                        fontSize = 14.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
