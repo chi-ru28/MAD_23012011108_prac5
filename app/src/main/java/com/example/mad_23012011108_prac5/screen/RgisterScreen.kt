@@ -49,7 +49,7 @@ fun RegisterUI(navController: NavController) {
             painter = painterResource(R.drawable.guni_pink_logo),
             contentDescription = "Logo",
             modifier = Modifier
-                .height(130.dp)
+                .height(120.dp)
                 .align(Alignment.CenterHorizontally),
             contentScale = ContentScale.Fit
         )
