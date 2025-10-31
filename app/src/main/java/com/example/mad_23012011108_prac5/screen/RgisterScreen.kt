@@ -72,7 +72,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Name",
-                        fontSize = 12.sp,
+                        fontSize = 14.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -87,7 +87,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Phone Number",
-                        fontSize = 12.sp,
+                        fontSize = 14.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -102,7 +102,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "City",
-                        fontSize = 12.sp,
+                        fontSize = 14.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -117,7 +117,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Email",
-                        fontSize = 12.sp,
+                        fontSize = 14.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -132,7 +132,7 @@ fun RegisterUI(navController: NavController) {
                 ) {
                     Text(
                         "Password",
-                        fontSize = 12.sp,
+                        fontSize = 14.sp,
                         modifier = Modifier.weight(1f)
                     )
                     Box(modifier = Modifier.weight(2f)) {
@@ -174,7 +174,7 @@ fun RegisterUI(navController: NavController) {
             modifier = Modifier.align(Alignment.CenterHorizontally),
             verticalAlignment = Alignment.CenterVertically
         ) {
-            Text("Do you have an account?", fontSize = 12.sp)
+            Text("Do you have an account?", fontSize = 14.sp)
             Spacer(modifier = Modifier.width(5.dp))
             TextButton(onClick = {
                 if(navController!=null)
